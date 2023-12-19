@@ -1,0 +1,114 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+
+<html lang="en">
+
+<head>
+  <title>Food Tracker</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h2 {
+      color: #4285f4; /* Adjust color to your preference */
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    #developer-info img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 50%; /* Optional: Add a border-radius for a circular image */
+    }
+
+    #developer-info {
+      display: flex;
+      align-items: center;
+    }
+
+    #developer-info p {
+      margin-left: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>Add Items with Nutritional Information:</h2>
+  <p>Easily add the food items you consume throughout the day. Specify details such as proteins, carbohydrates, fats, and calories for each item.</p>
+
+  <h2>Comprehensive Nutrition Tracking:</h2>
+  <p>Track your daily nutritional intake with precision. Food Tracker allows you to monitor the essential components of your diet, including proteins, carbohydrates, fats, and overall caloric content.</p>
+
+  <h2>Daily Status Tracking:</h2>
+  <p>Stay informed about your nutritional progress by logging your food consumption every day. The application provides a clear overview of your daily status, helping you make informed decisions about your diet.</p>
+
+  <h2>Personalized Dashboard:</h2>
+  <p>Access a personalized dashboard that displays your daily, weekly, and monthly nutritional statistics. Visualize your progress and make adjustments to achieve your health and fitness goals.</p>
+
+  <h2>User-Friendly Interface:</h2>
+  <p>Food Tracker boasts an intuitive and user-friendly interface, making it easy for users of all levels to navigate and utilize its features. Whether you're a health enthusiast or just getting started on your wellness journey, Food Tracker is tailored to meet your needs.</p>
+
+  <h2>How to Use:</h2>
+
+  <h3>Add Items:</h3>
+  <ul>
+    <li>Navigate to the "Add Items" section.</li>
+    <li>Input the food items you've consumed, along with their nutritional information.</li>
+  </ul>
+
+  <h3>Track Daily Status:</h3>
+  <ul>
+    <li>Visit the "Home" section to view your daily nutritional status.</li>
+    <li>Monitor your progress and make adjustments to your diet as needed.</li>
+  </ul>
+
+  <h3>Explore Insights:</h3>
+  <ul>
+    <li>Dive into the detailed insights provided on your personalized dashboard.</li>
+    <li>Analyze your nutritional patterns over time and make informed decisions about your dietary choices.</li>
+  </ul>
+
+  <p>Start your journey to a healthier lifestyle with Food Tracker. Whether you're focused on building muscle, losing weight, or maintaining a balanced diet, this application empowers you to take control of your nutrition. Download Food Tracker now and make every meal count toward your well-being!</p>
+
+  <h1>About Us</h1>
+
+  <section id="introduction">
+    <h2>Introduction</h2>
+    <p>Welcome to <span>FoodTracker</span>, a project born out of passion and dedication. Welcome to Food Tracker, your personalized nutrition companion! Food Tracker is a user-friendly application designed to help you maintain a healthy lifestyle by effortlessly tracking your daily food intake.</p>
+  </section>
+
+  <section id="developer-info">
+    <img src="path/to/eshwar-image.jpg" alt="Eshwar's Image">
+    <p><span>Eshwar Mallula</span> and <span>Sravani Cheripalli</span> are backend developers at Ojas Innovative Technologies. They developed FoodTracker with their interest in technology and worked collaboratively to bring their vision to life.</p>
+  </section>
+
+  <section id="background">
+    <h2>Background</h2>
+
+
+    <p>Our journey began in [Your Location], where Eshwar and Sravani, driven by a shared passion for technology, embarked on a learning adventure. Inspired by the possibilities of Django and Python, the idea for Food Tracker took root.</p>
+    <p>Late nights of coding, problem-solving sessions, and a dash of creativity marked the development phase. As backend developers at Ojas Innovative Technologies, we combined our skills to create an application that goes beyond tracking – it's a companion for your nutritional well-being.</p>
+    <p>Food Tracker is more than just an app; it's a reflection of our dedication, learning, and the joy of creating something meaningful. We faced challenges, celebrated victories, and the result is a user-friendly tool that puts you in control of your nutrition.</p>
+</section>
+
+  </section>
+
+  <!-- ... (Other sections) -->
+
+  <section id="closing">
+    <h2>Closing</h2>
+    <p>Thank you for being a part of our journey. Explore <span>FoodTracker</span> and let us know what you think. Your support means the world to us. Happy exploring!</p>
+  </section>
+
+</body>
+
+</html>
+{% endblock content %}
